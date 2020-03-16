@@ -50,7 +50,7 @@ while u ~= 0
 
     while mod(u,2) == 0
         
-		u = bitshift(u,-1,'int64');          
+	u = bitshift(u,-1,'int64');          
         
         if mod(A,2) == 0 
             A = bitshift(A,-1,'int64');
